@@ -1,0 +1,102 @@
+body, html {
+    background-color: #F5F7FA;
+    font-family: Georgia, Times, serif;
+}
+
+#hd {
+    padding: 10px 0;
+    border-bottom: 3px dotted #7F5BA5;    
+}
+
+#hd h1 {
+    display: none;
+}
+
+#bd {
+    padding: 10px 0;
+}
+
+#ft {
+    padding: 10px 0;
+}
+
+#bd {
+    min-height: 500px;
+}
+
+div.howtouse {
+    float:right;
+}
+
+div.howtouse ol {
+    margin-left: 30px;
+}
+
+div.howtouse ol li {
+    list-style-type:decimal;
+    margin: 3px 0;
+}
+
+div.wantslist {
+}
+
+div.wantslist h1 {
+    font-size: 20pt;
+}
+
+div.wantuser img {
+    float:left; 
+    margin: 0 10px 5px 0;
+    border: 3px solid #ededed;    
+}
+
+div.want  {
+    clear: both;
+    margin: 5px 0;
+    padding: 15px 10px;
+    min-height: 50px;
+}
+
+div.want img {
+    float: left;
+    margin: 0 10px 0 0;
+    border: 3px solid #ededed;
+}
+
+div.want h3 {
+    font-weight: bold;
+    font-family: Century Gothic, Verdana, sans serif;
+}
+
+div.want p {
+    padding: 0 5px;
+    font-size:15pt;
+}
+
+div.date {
+    float:right;
+    font-size:8pt;
+}
+
+.alt {
+    background: #FFFFFF;
+}
+
+
+/* Success, error & notice boxes for messages and errors. */
+.error,
+.notice,
+.success    { padding: 5px; margin: 4px 0px; border: 2px solid #ddd; }
+.error      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
+.error a, .error a:visited     { color: #D12F19; font-weight: bold; text-decoration: underline;}
+.notice a, .notice a:visited   { color: #817134; font-weight: bold; text-decoration: underline;}
+.success a, .success a:visited { color: #529214; font-weight: bold; text-decoration: underline;}
+
+#debug {
+    margin: 20px;
+    padding: 5px;
+    background: #eeeeee;
+    font-size: 9px;
+}
